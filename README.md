@@ -1,16 +1,38 @@
-# React + Vite
+# Portfolio Website (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, ultra-minimal portfolio web application built with React and Vite.  
+The goal of this project is to present skills, experience, and projects in a clean, fast, and visually polished way, while following good front-end architecture practices.
 
-Currently, two official plugins are available:
+This repository contains the **source code for the portfolio app**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Ultra-minimal, Apple-style UI**
+- **Dark / Light mode toggle** (system-aware, persisted in localStorage)
+- **Responsive layout** (mobile → desktop)
+- **Smooth animations & micro-interactions** using Framer Motion
+- **Featured Projects section**
+  - Demo + Repo buttons
+  - Conditional rendering (only shows buttons when links exist)
+- **Auto-updating GitHub repositories**
+  - Fetches public repos using the GitHub API
+  - Search, filter forks, and sort by update time / stars / name
+- **Contact section**
+  - Mailto form
+  - Direct email and social links
+- **Clean component and data separation** (scalable structure)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **React** (Vite)
+- **Tailwind CSS**
+- **Framer Motion**
+- **Lucide Icons**
+- **GitHub Public API**
+
+---
+
