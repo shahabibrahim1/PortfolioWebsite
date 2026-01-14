@@ -8,8 +8,7 @@ export const PROFILE = {
   links: {
     github: "https://github.com/shahabibrahim1",
     linkedin: "https://www.linkedin.com/in/shahab-ibrahim-221887291/", 
-    resume: "/Shahab_resumeNOV.pdf", 
-  },
+    resume: `${import.meta.env.BASE_URL}Shahab_resumeNOV.pdf`,  },
   valueProp:
     "Computing Science student at the University of Alberta focused on building clean, useful products—backed by strong problem-solving and data-driven thinking.",
 };
