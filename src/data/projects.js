@@ -1,4 +1,4 @@
-import { Zap, Brain, TrendingUp } from "lucide-react";
+import { Zap, Brain, TrendingUp, FileText } from "lucide-react";
 
 export const FEATURED_PROJECTS = [
   {
@@ -46,4 +46,19 @@ export const FEATURED_PROJECTS = [
     liveUrl: "#",
     icon: TrendingUp,
   },
+  {
+  title: "Portfolio Website",
+  dates: "2025 - Present",
+  stack: ["React", "Vite", "Tailwind CSS", "Framer Motion"],
+  description:
+    "This site you’re currently viewing is a modern, ultra-minimal portfolio web application designed to showcase projects, skills, and experience with a clean UI and scalable architecture.",
+  highlights: [
+    "Smooth animations and micro-interactions",
+    "Auto-updating GitHub repositories via public API",
+    "Modular component and data-driven architecture",
+  ],
+  repoUrl: "https://github.com/shahabibrahim1/PortfolioWebsite", 
+  liveUrl: "#", 
+  icon: FileText, // or FileText / TrendingUp if you prefer
+}
 ];
