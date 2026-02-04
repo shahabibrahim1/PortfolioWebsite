@@ -830,7 +830,7 @@ export default function PortfolioSite() {
                     <Linkedin className="h-5 w-5" />
                     <div>
                       <div className="text-sm font-medium">LinkedIn</div>
-                      <div className="text-xs text-neutral-600 dark:text-neutral-300">Add your URL</div>
+                      <div className="text-xs text-neutral-600 dark:text-neutral-300">Shahab Ibrahim</div>
                     </div>
                   </div>
                   <ExternalLink className="h-4 w-4" />
